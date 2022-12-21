@@ -1,0 +1,38 @@
+button {
+  margin-right: 5px;
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+}
+
+button:hover {
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+  transform: translateY(-2px);
+}
+
+button:active {
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+  transform: translateY(2px);
+}
+
+.form-group {
+  font-family: "Source Serif 4", serif;
+  font-weight: lighter;
+  font-size: 19.2px;
+}

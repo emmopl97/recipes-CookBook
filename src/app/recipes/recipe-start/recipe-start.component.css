@@ -1,0 +1,63 @@
+* {
+  background-color: rgb(250, 237, 223);
+}
+
+h5 {
+  font-family: "DM Serif Display", serif;
+  text-transform: uppercase;
+  font-size: 23.04px;
+}
+p {
+  font-family: "Source Serif 4", serif;
+  font-weight: lighter;
+  font-size: 19.2px;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  padding: 40px 40px;
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  gap: 10px;
+}
+
+svg {
+  background-color: rgba(245, 163, 32, 0.259);
+  border-radius: 7px;
+  padding: 3px 3px;
+}
+
+.paper-plane {
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
+  grid-row: 1/2;
+}
+
+.link {
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.heart {
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.text1 {
+  grid-row: 1/2;
+}
+
+.text2 {
+  grid-row: 2/3;
+}
+.text3 {
+  grid-row: 3/4;
+}

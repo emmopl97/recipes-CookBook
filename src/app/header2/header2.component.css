@@ -1,0 +1,31 @@
+.container-fluid {
+  background-color: rgb(18, 84, 60);
+  padding: 30px 40px;
+}
+.navbar-brand {
+  font-family: "DM Serif Display", serif;
+  text-transform: uppercase;
+  font-size: 39.81px;
+  color: rgb(245, 165, 32);
+  margin-bottom: 20px;
+}
+.navbar-brand:hover {
+  color: rgb(245, 165, 32);
+}
+
+.dropdown-menu {
+  background-color: rgb(245, 165, 32);
+  box-shadow: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.107);
+}
+
+.ng-star-inserted {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.ng-star-inserted.active {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

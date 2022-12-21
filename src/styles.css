@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(55, 55, 55);
+}
+h5 {
+  font-family: "DM Serif Display", serif;
+  text-transform: uppercase;
+  font-size: 23.04px;
+}
+p {
+  font-family: "Source Serif 4", serif;
+  font-weight: lighter;
+  font-size: 19.2px;
+}
+body {
+  background-color: rgb(250, 237, 223);
+}

@@ -1,0 +1,44 @@
+.list-group-item {
+  margin-bottom: 10px;
+}
+
+.img-responsive {
+  border-radius: 4px;
+}
+
+.list-group-item {
+  background-color: rgb(248, 218, 173);
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+}
+
+.list-group-item:hover {
+  background-color: rgb(248, 222, 184);
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+}
+
+.list-group-item-heading {
+  font-family: "DM Serif Display", serif;
+  text-transform: uppercase;
+  font-size: 19.2px;
+  color: rgb(55, 55, 55);
+}
+.list-group-item-text {
+  font-family: "Source Serif 4", serif;
+  font-weight: lighter;
+  font-size: 19.2px;
+  color: rgb(55, 55, 55);
+}
+
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:focus .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text {
+  color: rgb(55, 55, 55);
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  background-color: rgb(255, 219, 164);
+}

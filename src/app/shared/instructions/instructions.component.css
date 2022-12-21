@@ -1,0 +1,86 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 50;
+}
+
+.alert-box {
+  position: fixed;
+  top: 30vh;
+  left: 20vw;
+  width: 60vw;
+  padding: 16px;
+  z-index: 100;
+  background-image: url("../../../img/welcome-background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgb(245, 165, 32);
+  box-shadow: 0 2px 8px rbga (0, 0, 0, 0.26);
+  border-radius: 5px;
+}
+
+.alert-box-actions {
+  text-align: center;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  text-transform: uppercase;
+  font-size: 33.18px;
+}
+
+h5 {
+  font-family: "DM Serif Display", serif;
+  text-transform: uppercase;
+  font-size: 19.2px;
+}
+p {
+  font-family: "Source Serif 4", serif;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+header {
+  margin: 20px 20px;
+}
+
+article {
+  margin: 40px 20px;
+}
+
+.btn-close {
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+}
+
+.btn-close:hover {
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+  transform: translateY(-2px);
+}
+
+.btn-close:active {
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+  transform: translateY(2px);
+}

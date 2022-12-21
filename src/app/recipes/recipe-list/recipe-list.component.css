@@ -1,0 +1,32 @@
+.btn-new-recipe {
+  padding: 5px 20px;
+  background-color: rgb(245, 165, 32);
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+}
+
+.btn-new-recipe:hover {
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+  transform: translateY(-2px);
+}
+
+.btn-new-recipe:active {
+  padding: 5px 20px;
+  color: rgb(18, 84, 60);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.218);
+  transform: translateY(2px);
+}
